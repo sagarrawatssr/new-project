@@ -1,8 +1,9 @@
 
 a=" "
-b="*"
+
 def main():
     n=int(input("enter the no."))
+    b=input("enter the symbol you want to print")
     for i in range(n):
         for j in range(n-i-1):
             print(a,end="")
